@@ -1,1 +1,1 @@
-# DJGPP-Cross-Compiler
+# DOS-Cross-Compiler
