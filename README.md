@@ -1,1 +1,1 @@
-# MiniVMDOS-DJGPP-Cross-Compiler
+# DJGPP-Cross-Compiler
