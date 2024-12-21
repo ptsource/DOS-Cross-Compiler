@@ -1,12 +1,13 @@
 @title PTSource DOS Cross Compiler  
 @set DJGPP=%cd%\DJGPP.ENV
-@echo Setting up the variables:
+@echo Setting up the global variables
 @echo.
 @set _tmpdir=%cd%/tmp
 @set tmpdir=%_tmpdir:\=/%
 @set _tmpdir=
 @set path=%cd%\bin;%PATH%
-@echo these are for GCC 2
+@echo Setting up gcc
+@echo.
 @set _C_INCLUDE_PATH=%cd%/include
 @SET C_INCLUDE_PATH=%_C_INCLUDE_PATH:\=/%
 @set _C_INCLUDE_PATH=
@@ -16,7 +17,8 @@
 @set _LIBRARY_PATH=
 @echo LIBRARY_PATH %LIBRARY_PATH%
 @echo.
-@echo setting up bison
+@echo Setting up bison
+@echo.
 @set _BISON_SIMPLE=%cd%/lib/bison.simple
 @set BISON_SIMPLE=%_BISON_SIMPLE:\=/%
 @set _BISON_SIMPLE=
@@ -26,4 +28,5 @@
 @echo BISON_SIMPLE %BISON_SIMPLE%
 @echo BISON_HAIRY %BISON_HAIRY%
 @echo.
-@echo Finished. Visit us at www.wiki.ptsource.eu
+@echo Finished
+@echo Visit us at www.wiki.ptsource.eu
